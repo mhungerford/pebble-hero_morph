@@ -1,0 +1,940 @@
+{
+  "versionLabel": "1.0", 
+  "versionCode": 1, 
+  "uuid": "85b7cc84-f5c7-4dac-bea3-7fcd618e203f", 
+  "appKeys": {
+    "dummy": 0
+  }, 
+  "companyName": "niceTux", 
+  "watchapp": {
+    "watchface": true
+  }, 
+  "longName": "Hero Morph - animated watchface", 
+  "shortName": "Hero Morph", 
+  "resources": {
+    "media": [
+      {
+        "characterRegex": "[ :0-9]", 
+        "type": "font", 
+        "name": "FONT_BOXY_TEXT_30", 
+        "file": "Boxy_Text.ttf"
+      }, 
+      {
+        "characterRegex": "[ /0-9MTWFSadehinortu]", 
+        "type": "font", 
+        "name": "FONT_BOXY_TEXT_18", 
+        "file": "Boxy_Text.ttf"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_0", 
+        "file": "heroes3-000.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_1", 
+        "file": "heroes3-001.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_2", 
+        "file": "heroes3-002.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_3", 
+        "file": "heroes3-003.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_4", 
+        "file": "heroes3-004.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_5", 
+        "file": "heroes3-005.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_6", 
+        "file": "heroes3-006.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_7", 
+        "file": "heroes3-007.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_8", 
+        "file": "heroes3-008.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_9", 
+        "file": "heroes3-009.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_10", 
+        "file": "heroes3-010.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_11", 
+        "file": "heroes3-011.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_12", 
+        "file": "heroes3-012.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_13", 
+        "file": "heroes3-013.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_14", 
+        "file": "heroes3-014.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_15", 
+        "file": "heroes3-015.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_16", 
+        "file": "heroes3-016.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_17", 
+        "file": "heroes3-017.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_18", 
+        "file": "heroes3-018.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_19", 
+        "file": "heroes3-019.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_20", 
+        "file": "heroes3-020.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_21", 
+        "file": "heroes3-021.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_22", 
+        "file": "heroes3-022.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_23", 
+        "file": "heroes3-023.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_24", 
+        "file": "heroes3-024.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_25", 
+        "file": "heroes3-025.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_26", 
+        "file": "heroes3-026.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_27", 
+        "file": "heroes3-027.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_28", 
+        "file": "heroes3-028.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_29", 
+        "file": "heroes3-029.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_30", 
+        "file": "heroes3-030.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_31", 
+        "file": "heroes3-031.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_32", 
+        "file": "heroes3-032.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_33", 
+        "file": "heroes3-033.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_34", 
+        "file": "heroes3-034.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_35", 
+        "file": "heroes3-035.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_36", 
+        "file": "heroes3-036.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_37", 
+        "file": "heroes3-037.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_38", 
+        "file": "heroes3-038.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_39", 
+        "file": "heroes3-039.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_40", 
+        "file": "heroes3-040.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_41", 
+        "file": "heroes3-041.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_42", 
+        "file": "heroes3-042.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_43", 
+        "file": "heroes3-043.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_44", 
+        "file": "heroes3-044.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_45", 
+        "file": "heroes3-045.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_46", 
+        "file": "heroes3-046.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_47", 
+        "file": "heroes3-047.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_48", 
+        "file": "heroes3-048.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_49", 
+        "file": "heroes3-049.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_50", 
+        "file": "heroes3-050.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_51", 
+        "file": "heroes3-051.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_52", 
+        "file": "heroes3-052.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_53", 
+        "file": "heroes3-053.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_54", 
+        "file": "heroes3-054.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_55", 
+        "file": "heroes3-055.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_56", 
+        "file": "heroes3-056.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_57", 
+        "file": "heroes3-057.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_58", 
+        "file": "heroes3-058.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_59", 
+        "file": "heroes3-059.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_60", 
+        "file": "heroes3-060.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_61", 
+        "file": "heroes3-061.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_62", 
+        "file": "heroes3-062.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_63", 
+        "file": "heroes3-063.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_64", 
+        "file": "heroes3-064.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_65", 
+        "file": "heroes3-065.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_66", 
+        "file": "heroes3-066.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_67", 
+        "file": "heroes3-067.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_68", 
+        "file": "heroes3-068.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_69", 
+        "file": "heroes3-069.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_70", 
+        "file": "heroes3-070.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_71", 
+        "file": "heroes3-071.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_72", 
+        "file": "heroes3-072.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_73", 
+        "file": "heroes3-073.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_74", 
+        "file": "heroes3-074.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_75", 
+        "file": "heroes3-075.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_76", 
+        "file": "heroes3-076.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_77", 
+        "file": "heroes3-077.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_78", 
+        "file": "heroes3-078.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_79", 
+        "file": "heroes3-079.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_80", 
+        "file": "heroes3-080.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_81", 
+        "file": "heroes3-081.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_82", 
+        "file": "heroes3-082.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_83", 
+        "file": "heroes3-083.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_84", 
+        "file": "heroes3-084.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_85", 
+        "file": "heroes3-085.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_86", 
+        "file": "heroes3-086.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_87", 
+        "file": "heroes3-087.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_88", 
+        "file": "heroes3-088.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_89", 
+        "file": "heroes3-089.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_90", 
+        "file": "heroes3-090.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_91", 
+        "file": "heroes3-091.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_92", 
+        "file": "heroes3-092.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_93", 
+        "file": "heroes3-093.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_94", 
+        "file": "heroes3-094.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_95", 
+        "file": "heroes3-095.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_96", 
+        "file": "heroes3-096.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_97", 
+        "file": "heroes3-097.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_98", 
+        "file": "heroes3-098.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_99", 
+        "file": "heroes3-099.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_100", 
+        "file": "heroes3-100.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_101", 
+        "file": "heroes3-101.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_102", 
+        "file": "heroes3-102.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_103", 
+        "file": "heroes3-103.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_104", 
+        "file": "heroes3-104.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_105", 
+        "file": "heroes3-105.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_106", 
+        "file": "heroes3-106.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_107", 
+        "file": "heroes3-107.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_108", 
+        "file": "heroes3-108.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_109", 
+        "file": "heroes3-109.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_110", 
+        "file": "heroes3-110.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_111", 
+        "file": "heroes3-111.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_112", 
+        "file": "heroes3-112.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_113", 
+        "file": "heroes3-113.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_114", 
+        "file": "heroes3-114.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_115", 
+        "file": "heroes3-115.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_116", 
+        "file": "heroes3-116.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_117", 
+        "file": "heroes3-117.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_118", 
+        "file": "heroes3-118.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_119", 
+        "file": "heroes3-119.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_120", 
+        "file": "heroes3-120.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_121", 
+        "file": "heroes3-121.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_122", 
+        "file": "heroes3-122.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_123", 
+        "file": "heroes3-123.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_124", 
+        "file": "heroes3-124.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_125", 
+        "file": "heroes3-125.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_126", 
+        "file": "heroes3-126.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_127", 
+        "file": "heroes3-127.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_128", 
+        "file": "heroes3-128.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_129", 
+        "file": "heroes3-129.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_130", 
+        "file": "heroes3-130.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_131", 
+        "file": "heroes3-131.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_132", 
+        "file": "heroes3-132.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_133", 
+        "file": "heroes3-133.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_134", 
+        "file": "heroes3-134.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_135", 
+        "file": "heroes3-135.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_136", 
+        "file": "heroes3-136.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_137", 
+        "file": "heroes3-137.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_138", 
+        "file": "heroes3-138.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_139", 
+        "file": "heroes3-139.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_140", 
+        "file": "heroes3-140.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_141", 
+        "file": "heroes3-141.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_142", 
+        "file": "heroes3-142.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_143", 
+        "file": "heroes3-143.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_144", 
+        "file": "heroes3-144.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_145", 
+        "file": "heroes3-145.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_146", 
+        "file": "heroes3-146.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_147", 
+        "file": "heroes3-147.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_148", 
+        "file": "heroes3-148.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_149", 
+        "file": "heroes3-149.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_150", 
+        "file": "heroes3-150.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_151", 
+        "file": "heroes3-151.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_152", 
+        "file": "heroes3-152.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_153", 
+        "file": "heroes3-153.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_154", 
+        "file": "heroes3-154.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_155", 
+        "file": "heroes3-155.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_156", 
+        "file": "heroes3-156.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_157", 
+        "file": "heroes3-157.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_158", 
+        "file": "heroes3-158.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_159", 
+        "file": "heroes3-159.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_160", 
+        "file": "heroes3-160.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_161", 
+        "file": "heroes3-161.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_162", 
+        "file": "heroes3-162.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_163", 
+        "file": "heroes3-163.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_164", 
+        "file": "heroes3-164.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_165", 
+        "file": "heroes3-165.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_166", 
+        "file": "heroes3-166.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_167", 
+        "file": "heroes3-167.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_168", 
+        "file": "heroes3-168.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_169", 
+        "file": "heroes3-169.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_170", 
+        "file": "heroes3-170.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_171", 
+        "file": "heroes3-171.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_172", 
+        "file": "heroes3-172.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_173", 
+        "file": "heroes3-173.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_174", 
+        "file": "heroes3-174.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_175", 
+        "file": "heroes3-175.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_176", 
+        "file": "heroes3-176.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_177", 
+        "file": "heroes3-177.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_178", 
+        "file": "heroes3-178.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_179", 
+        "file": "heroes3-179.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_180", 
+        "file": "heroes3-180.png"
+      }, 
+      {
+        "type": "raw", 
+        "name": "IMAGE_181", 
+        "file": "heroes3-181.png"
+      }
+    ]
+  }
+}
